@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mp?serverTimezone=UTC
+    username: root
+    password: root
+#  main:
+#    banner-mode: off # 取消springboot图标
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true  #开启驼峰命名
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启mp输出到控制台
+  global-config:
+    db-config:
+      table-prefix: tb_ # 设置表名前缀
+      id-type: assign_id
+      logic-delete-field: status # 逻辑删除的字段
+      logic-not-delete-value: 0 # 逻辑删除字面值:0表示未删除
+      logic-delete-value: 1  #逻辑删除字面值:1表示删除
+#  global-config:
+#    banner: off
+
