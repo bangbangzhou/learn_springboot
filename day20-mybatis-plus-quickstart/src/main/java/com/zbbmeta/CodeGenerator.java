@@ -20,7 +20,7 @@ public class CodeGenerator {
 
     public static void main(String[] args) {
 
-        FastAutoGenerator.create("jdbc:mysql://localhost:3306/mp?serverTimezone=UTC",
+        FastAutoGenerator.create("jdbc:mysql://localhost:3306/springboot_mp?serverTimezone=UTC",
                 "root",
                 "root")
                 // 全局配置
