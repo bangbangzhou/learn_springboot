@@ -7,7 +7,10 @@ spring:
     url: jdbc:mysql://localhost:3306/springboot_mp?serverTimezone=UTC
     username: root
     password: root
-
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
 
 #spring:
 #  datasource:
@@ -24,3 +27,23 @@ mybatis-plus:
       id-type: assign_id # id生成策略
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+management:
+  endpoint: # 具体端点的配置
+    health:
+      show-details: always
+    info:
+      enabled: true
+  endpoints: # 全部端点的配置
+    web:
+      exposure:
+        include: "*"
+    enabled-by-default: true
+  info: #配置info信息 2.5以上需要配置，不然下面的info信息不生效
+    env:
+      enabled: true
+info:
+  appName: @project.artifactId@
+  version: @project.version@
+  company: springboot葵花宝典
+  author: zbbmeta

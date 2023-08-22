@@ -9,8 +9,12 @@ import com.zbbmeta.entity.Student;
 import com.zbbmeta.mapper.StudentMapper;
 import com.zbbmeta.service.IStudentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import io.micrometer.core.instrument.Counter;
+import io.micrometer.core.instrument.MeterRegistry;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
+
 
 /**
  * <p>
@@ -23,6 +27,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Service
 public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student> implements IStudentService {
 
+
+    private Counter counter;
+
+    public StudentServiceImpl(MeterRegistry meterRegistry){
+        counter = meterRegistry.counter("用户付费操作次数：");
+    }
+
     /**
      * 条件+分页查询
      * @param currentPage
@@ -32,6 +43,8 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student> impl
      */
    @Override
     public IPage<Student> getPage(int currentPage,int pageSize, Student student){
+       //每次执行删除业务等同于执行了付费业务
+       counter.increment();
         //1 创建IPage分页对象,设置分页参数
         IPage<Student> page=new Page<>(currentPage,pageSize);
         //2 执行分页查询
