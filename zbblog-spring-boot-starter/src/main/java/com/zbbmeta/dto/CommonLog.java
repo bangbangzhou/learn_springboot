@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
  */
 @Data
 @Accessors(chain = true)
-public class CommonLog   implements Serializable {
+public class CommonLog implements Serializable {
     private static final long serialVersionUID = 1L;
 
     /**

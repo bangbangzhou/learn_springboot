@@ -1,0 +1,7 @@
+
+
+zbbmeta:
+  log:
+    enabled: true
+server:
+  port: 8888

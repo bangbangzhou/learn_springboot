@@ -2,7 +2,6 @@ package com.zbbmeta.aspect;
 
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
-import com.zbbmeta.annotation.Log;
 import com.zbbmeta.dto.CommonLog;
 import com.zbbmeta.util.IPUtil;
 import com.zbbmeta.util.RequestHolder;
@@ -64,7 +63,7 @@ public class LogAspect {
         }
         //　获取注解里的value值
         Method targetMethod = resolveMethod(point);
-        Log logAnn = targetMethod.getAnnotation(Log.class);
+//        Log logAnn = targetMethod.getAnnotation(Log.class);
         // 打印执行时间
         long startTime = System.nanoTime();
         // 请求方法
@@ -100,7 +99,7 @@ public class LogAspect {
                 .setOperation(String.valueOf(result))
                 .setLocation(StringUtils.isEmpty(region) ? "本地" : region)
                 .setExecuteTime(tookTime)
-                .setTitle(logAnn.value())
+//                .setTitle(logAnn.value())
                 .setParams(JSON.toJSONString(requestParam));
         log.info("Http Request: {}", JSONObject.toJSONString(commonLog));
 
@@ -135,7 +134,7 @@ public class LogAspect {
 
         //　获取注解里的value值
         Method targetMethod = resolveMethod((ProceedingJoinPoint) point);
-        Log logAnn = targetMethod.getAnnotation(Log.class);
+//        Log logAnn = targetMethod.getAnnotation(Log.class);
 
         commonLog.setExecuteTime(TimeUnit.NANOSECONDS.toMillis(System.nanoTime() - startTime))
                 .setIp(ip)
@@ -143,7 +142,7 @@ public class LogAspect {
                 .setMethod(method)
                 .setUrl(url)
                 .setType("2")
-                .setTitle(logAnn.value())
+//                .setTitle(logAnn.value())
                 .setException(getStackTrace(e));
         // 发布事件
         log.info("Error Result: {}", commonLog);
@@ -207,16 +206,5 @@ public class LogAspect {
         return strArgs;
     }
 
-    /**
-     * 获取方法参数信息
-     *
-     * @param method         方法
-     * @param parameterIndex 参数序号
-     * @return {MethodParameter}
-     */
-    public static MethodParameter getMethodParameter(Method method, int parameterIndex) {
-        MethodParameter methodParameter = new SynthesizingMethodParameter(method, parameterIndex);
-        methodParameter.initParameterNameDiscovery(PARAMETER_NAME_DISCOVERER);
-        return methodParameter;
-    }
+
 }

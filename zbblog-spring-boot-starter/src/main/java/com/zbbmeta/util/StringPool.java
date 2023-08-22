@@ -2,8 +2,9 @@ package com.zbbmeta.util;
 
 /**
  * @author springboot葵花宝典
- * @description: TODO
+ * @description: https://java.sun.com/docs/books/jls/third_edition/html/lexical.html#3.10.5
  */
+
 public interface StringPool {
 
     String AMPERSAND = "&";
