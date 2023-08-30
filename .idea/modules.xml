@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/day26-01-Jedis/day26-01-Jedis.iml" filepath="$PROJECT_DIR$/day26-01-Jedis/day26-01-Jedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day26-02-spring-data-redis/day26-02-spring-data-redis.iml" filepath="$PROJECT_DIR$/day26-02-spring-data-redis/day26-02-spring-data-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learn_springboot.iml" filepath="$PROJECT_DIR$/.idea/learn_springboot.iml" />
     </modules>
   </component>
