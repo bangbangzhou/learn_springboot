@@ -41,7 +41,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
      * @return          用户信息
      */
     private User queryUserInfoById(Long userId) {
-//        String url = "http://localhost:8088/user/" + userId;
+//           String url = "http://localhost:8088/user/" + userId;
         String url = "http://user-service/user/" + userId;
         return restTemplate.getForObject(url, User.class);
     }

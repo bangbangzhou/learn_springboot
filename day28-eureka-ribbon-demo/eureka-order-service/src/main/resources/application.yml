@@ -7,7 +7,7 @@ spring:
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver #mysql8.0
   application:
-    name: order-service
+    name: orderservice
 
 mybatis-plus:
   type-aliases-package: com.zbbmeta.user.entity
@@ -18,11 +18,19 @@ mybatis-plus:
     db-config:
       table-prefix: tb_
 
-
-
 eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:9999/eureka/
+
+user-service:  # 给某个微服务配置负载均衡规则，这里是user-service服务
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule # 负载均衡规则
+
+ribbon:
+  eager-load:
+    enabled: true
+    clients: user-service
+
 
 
