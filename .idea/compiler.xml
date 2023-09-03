@@ -8,8 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="day26-01-Jedis" />
+        <module name="eureka-user-service" />
+        <module name="eureka-order-service" />
         <module name="user-service" />
         <module name="order-service" />
+        <module name="eureka-server" />
         <module name="day26-02-spring-data-redis" />
       </profile>
     </annotationProcessing>
@@ -18,7 +21,12 @@
       <module name="day26-01-Jedis" target="11" />
       <module name="day26-02-spring-data-redis" target="11" />
       <module name="day27-cloud-demo" target="11" />
+      <module name="day28-eureka-ribbon-demo" target="11" />
+      <module name="eureka-order-service" target="11" />
+      <module name="eureka-server" target="11" />
+      <module name="eureka-user-service" target="11" />
       <module name="order-service" target="11" />
+      <module name="untitled" target="11" />
       <module name="user-service" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -27,6 +35,10 @@
       <module name="day25-sprongboot-starter-test" options="-parameters" />
       <module name="day26-02-spring-data-redis" options="-parameters" />
       <module name="day27-cloud-demo" options="-parameters" />
+      <module name="day28-eureka-ribbon-demo" options="-parameters" />
+      <module name="eureka-order-service" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-user-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
