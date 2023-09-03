@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/day26-01-Jedis/pom.xml" />
         <option value="$PROJECT_DIR$/day26-02-spring-data-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/day27-cloud-demo/pom.xml" />
       </list>
     </option>
   </component>
