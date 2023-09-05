@@ -9,5 +9,8 @@
     <file url="file://$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-order-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-user-service/src/main/java" charset="UTF-8" />
   </component>
 </project>

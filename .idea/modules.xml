@@ -6,6 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/day26-02-spring-data-redis/day26-02-spring-data-redis.iml" filepath="$PROJECT_DIR$/day26-02-spring-data-redis/day26-02-spring-data-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/day27-cloud-demo/day27-cloud-demo.iml" filepath="$PROJECT_DIR$/day27-cloud-demo/day27-cloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day28-eureka-ribbon-demo/day28-eureka-ribbon-demo.iml" filepath="$PROJECT_DIR$/day28-eureka-ribbon-demo/day28-eureka-ribbon-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day29-eureka-loadbalancer/day29-eureka-loadbalancer.iml" filepath="$PROJECT_DIR$/day29-eureka-loadbalancer/day29-eureka-loadbalancer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-order-service/eureka-loadbalancer-order-service.iml" filepath="$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-order-service/eureka-loadbalancer-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-server/eureka-loadbalancer-server.iml" filepath="$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-server/eureka-loadbalancer-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-user-service/eureka-loadbalancer-user-service.iml" filepath="$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-user-service/eureka-loadbalancer-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-order-service/eureka-order-service.iml" filepath="$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-order-service/eureka-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-user-service/eureka-user-service.iml" filepath="$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-user-service/eureka-user-service.iml" />
