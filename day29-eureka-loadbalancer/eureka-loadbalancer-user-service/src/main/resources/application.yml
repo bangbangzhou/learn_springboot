@@ -1,0 +1,34 @@
+server:
+  port: 8088
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        cluster-name: SZ #集群名称
+        namespace: 3acf0a05-9d97-48a3-bba6-dda8bc211338
+        ephemeral: false # 设置为非临时实例
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud_user?useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver #mysql8.0
+  application:
+    name: user-service
+
+
+
+mybatis-plus:
+  type-aliases-package: com.zbbmeta.user.entity
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      table-prefix: tb_
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9999/eureka/
+
+
