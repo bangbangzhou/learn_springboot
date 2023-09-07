@@ -2,12 +2,9 @@ server:
   port: 8088
 
 spring:
-  application:
-    name: user-service
-  cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8848
+#  cloud:
+#    bootstrap:
+#      enabled: true
   datasource:
     url: jdbc:mysql://localhost:3306/cloud_user?useSSL=false
     username: root
