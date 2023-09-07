@@ -1,30 +1,22 @@
 server:
-  port: 8088
+  port: 8099
 spring:
-  profiles:
-    active: dev
   cloud:
     nacos:
       discovery:
         server-addr: localhost:8848
-#        cluster-name: SZ #集群名称
-#        namespace: 3acf0a05-9d97-48a3-bba6-dda8bc211338
-#        ephemeral: false # 设置为非临时实例
-      config:
-        server-addr: localhost:8848
+        cluster-name: SZ
+        namespace: 3acf0a05-9d97-48a3-bba6-dda8bc211338
+    loadbalancer:
+      nacos:
+        enabled: true
   datasource:
-    url: jdbc:mysql://localhost:3306/cloud_user?useSSL=false
+    url: jdbc:mysql://localhost:3306/cloud_order?useSSL=false
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver #mysql8.0
   application:
-    name: userservice
-  config:
-    import:
-      - optional:nacos:${spring.application.name}-${spring.profiles.active}.yaml
-
-
-
+    name: order-service
 mybatis-plus:
   type-aliases-package: com.zbbmeta.user.entity
   configuration:
@@ -33,10 +25,7 @@ mybatis-plus:
   global-config:
     db-config:
       table-prefix: tb_
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://127.0.0.1:9999/eureka/
+
 #eureka:
 #  client:
 #    service-url:
