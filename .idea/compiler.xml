@@ -16,7 +16,9 @@
         <module name="user-service" />
         <module name="order-service" />
         <module name="eureka-server" />
+        <module name="nacos-config-order-service" />
         <module name="day26-02-spring-data-redis" />
+        <module name="nacos-config-user-oservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
@@ -26,12 +28,15 @@
       <module name="day27-cloud-demo" target="11" />
       <module name="day28-eureka-ribbon-demo" target="11" />
       <module name="day29-eureka-loadbalancer" target="11" />
+      <module name="day30-cloud-nacos-config" target="11" />
       <module name="eureka-loadbalancer-order-service" target="11" />
       <module name="eureka-loadbalancer-server" target="11" />
       <module name="eureka-loadbalancer-user-service" target="11" />
       <module name="eureka-order-service" target="11" />
       <module name="eureka-server" target="11" />
       <module name="eureka-user-service" target="11" />
+      <module name="nacos-config-order-service" target="11" />
+      <module name="nacos-config-user-oservice" target="11" />
       <module name="order-service" target="11" />
       <module name="untitled" target="11" />
       <module name="user-service" target="11" />
@@ -49,6 +54,8 @@
       <module name="eureka-order-service" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-user-service" options="-parameters" />
+      <module name="nacos-config-order-service" options="-parameters" />
+      <module name="nacos-config-user-oservice" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>

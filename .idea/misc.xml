@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/untitled/pom.xml" />
         <option value="$PROJECT_DIR$/day28-eureka-ribbon-demo/pom.xml" />
         <option value="$PROJECT_DIR$/day29-eureka-loadbalancer/pom.xml" />
+        <option value="$PROJECT_DIR$/day30-cloud-nacos-config/pom.xml" />
       </list>
     </option>
   </component>
