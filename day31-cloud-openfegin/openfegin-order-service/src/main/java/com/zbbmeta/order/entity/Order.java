@@ -1,8 +1,8 @@
 package com.zbbmeta.order.entity;
 
 import com.baomidou.mybatisplus.annotation.TableField;
+import com.zbbmeta.clients.entity.User;
 import lombok.Data;
-
 
 @Data
 public class Order {

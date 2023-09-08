@@ -1,6 +1,6 @@
 package com.zbbmeta.advice;
 
-import com.zbbmeta.entity.R;
+import com.zbbmeta.clients.entity.R;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 

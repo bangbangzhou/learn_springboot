@@ -1,4 +1,4 @@
-package com.zbbmeta.order.entity;
+package com.zbbmeta.clients.entity;
 
 
 import lombok.Data;

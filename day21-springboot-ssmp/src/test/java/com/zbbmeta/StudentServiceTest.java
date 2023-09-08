@@ -2,7 +2,7 @@ package com.zbbmeta;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.zbbmeta.entity.Student;
+import com.zbbmeta.clients.entity.Student;
 import com.zbbmeta.service.IStudentService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package com.zbbmeta;
 
-import com.zbbmeta.entity.User;
+import com.zbbmeta.clients.entity.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

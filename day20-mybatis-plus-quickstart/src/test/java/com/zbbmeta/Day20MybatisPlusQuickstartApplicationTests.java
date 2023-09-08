@@ -1,6 +1,6 @@
 package com.zbbmeta;
 
-import com.zbbmeta.entity.Student;
+import com.zbbmeta.clients.entity.Student;
 import com.zbbmeta.mapper.StudentMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

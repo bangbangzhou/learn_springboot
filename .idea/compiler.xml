@@ -20,6 +20,7 @@
         <module name="openfegin-order-service" />
         <module name="order-service" />
         <module name="nacos-config-order-service" />
+        <module name="openfegin-user-api" />
         <module name="day26-02-spring-data-redis" />
       </profile>
     </annotationProcessing>
@@ -41,6 +42,7 @@
       <module name="nacos-config-order-service" target="11" />
       <module name="nacos-config-user-oservice" target="11" />
       <module name="openfegin-order-service" target="11" />
+      <module name="openfegin-user-api" target="11" />
       <module name="openfegin-user-service" target="11" />
       <module name="order-service" target="11" />
       <module name="untitled" target="11" />
@@ -62,6 +64,7 @@
       <module name="nacos-config-order-service" options="-parameters" />
       <module name="nacos-config-user-oservice" options="-parameters" />
       <module name="openfegin-order-service" options="-parameters" />
+      <module name="openfegin-user-api" options="-parameters" />
       <module name="openfegin-user-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="user-service" options="-parameters" />

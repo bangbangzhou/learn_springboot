@@ -1,4 +1,4 @@
-package com.zbbmeta.entity;
+package com.zbbmeta.clients.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;

@@ -2,13 +2,17 @@ package com.zbbmeta.order.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
+
+import com.zbbmeta.clients.entity.User;
+import com.zbbmeta.clients.fegin.UserClient;
 import com.zbbmeta.order.entity.Order;
-import com.zbbmeta.order.entity.User;
 import com.zbbmeta.order.mapper.OrderMapper;
 import com.zbbmeta.order.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+
+import java.util.Objects;
 
 
 @Service
@@ -16,10 +20,10 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
     @Autowired
     private RestTemplate restTemplate;
 
-
     @Autowired
     private OrderMapper orderMapper;
-
+    @Autowired
+    private UserClient userClient;
 
     @Override
     public Order getOrderById(Long id) {
@@ -28,10 +32,12 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
         if(order==null){
             return null;
         }
-        User user = queryUserInfoById(order.getUserId());
-        order.setUser(user);
+//        User user = queryUserInfoById(order.getUserId());
+        User user = userClient.test(order.getUserId());
+        if(Objects.nonNull(user)){
+            order.setUser(user);
+        }
         return order;
-
     }
 
     /**

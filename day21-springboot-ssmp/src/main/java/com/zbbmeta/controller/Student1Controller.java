@@ -1,7 +1,7 @@
 package com.zbbmeta.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.zbbmeta.entity.Student;
+import com.zbbmeta.clients.entity.Student;
 import com.zbbmeta.service.IStudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

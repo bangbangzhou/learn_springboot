@@ -1,6 +1,6 @@
 package com.zbbmeta.mapper;
 
-import com.zbbmeta.entity.Student;
+import com.zbbmeta.clients.entity.Student;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

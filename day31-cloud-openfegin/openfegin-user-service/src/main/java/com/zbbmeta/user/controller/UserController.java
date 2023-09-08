@@ -21,7 +21,7 @@ import java.time.format.DateTimeFormatter;
 @RequestMapping("/user")
 @RestController
 @RefreshScope
-public class UserController {
+public class UserController  {
 
 
     @Autowired

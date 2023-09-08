@@ -1,7 +1,7 @@
 package com.zbbmeta.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.zbbmeta.entity.Student;
+import com.zbbmeta.clients.entity.Student;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
