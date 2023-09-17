@@ -7,16 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mq-consumer" />
         <module name="eureka-loadbalancer-server" />
         <module name="eureka-loadbalancer-user-service" />
         <module name="openfegin-user-service" />
         <module name="user-service" />
+        <module name="gateway-user-api" />
         <module name="eureka-server" />
+        <module name="gateway-user-service" />
         <module name="nacos-config-user-oservice" />
         <module name="day26-01-Jedis" />
         <module name="eureka-user-service" />
+        <module name="gateway-cloud-server" />
         <module name="eureka-loadbalancer-order-service" />
+        <module name="gateway-order-service" />
         <module name="eureka-order-service" />
+        <module name="mq-publisher" />
         <module name="openfegin-order-service" />
         <module name="order-service" />
         <module name="nacos-config-order-service" />
@@ -33,12 +39,20 @@
       <module name="day29-eureka-loadbalancer" target="11" />
       <module name="day30-cloud-nacos-config" target="11" />
       <module name="day31-cloud-openfegin" target="11" />
+      <module name="day32-cloud-gateway" target="11" />
       <module name="eureka-loadbalancer-order-service" target="11" />
       <module name="eureka-loadbalancer-server" target="11" />
       <module name="eureka-loadbalancer-user-service" target="11" />
       <module name="eureka-order-service" target="11" />
       <module name="eureka-server" target="11" />
       <module name="eureka-user-service" target="11" />
+      <module name="gateway-cloud-server" target="11" />
+      <module name="gateway-order-service" target="11" />
+      <module name="gateway-user-api" target="11" />
+      <module name="gateway-user-service" target="11" />
+      <module name="mq-consumer" target="11" />
+      <module name="mq-publisher" target="11" />
+      <module name="mq-study" target="11" />
       <module name="nacos-config-order-service" target="11" />
       <module name="nacos-config-user-oservice" target="11" />
       <module name="openfegin-order-service" target="11" />
@@ -61,6 +75,12 @@
       <module name="eureka-order-service" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-user-service" options="-parameters" />
+      <module name="gateway-cloud-server" options="-parameters" />
+      <module name="gateway-order-service" options="-parameters" />
+      <module name="gateway-user-api" options="-parameters" />
+      <module name="gateway-user-service" options="-parameters" />
+      <module name="mq-consumer" options="-parameters" />
+      <module name="mq-publisher" options="-parameters" />
       <module name="nacos-config-order-service" options="-parameters" />
       <module name="nacos-config-user-oservice" options="-parameters" />
       <module name="openfegin-order-service" options="-parameters" />

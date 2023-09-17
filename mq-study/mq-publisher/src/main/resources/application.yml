@@ -8,6 +8,12 @@ spring:
     virtual-host: / # 虚拟主机
     username: zbbmeta # 用户名
     password: 123456 # 密码
+    publisher-confirm-type: correlated # 异步回调
+    publisher-returns: true
+    template:
+      mandatory: false
+
+
   application:
     name: mq-publisher
 

@@ -1,9 +1,6 @@
 package com.zbbmeta.mq.config;
 
-import org.springframework.amqp.core.Binding;
-import org.springframework.amqp.core.BindingBuilder;
-import org.springframework.amqp.core.FanoutExchange;
-import org.springframework.amqp.core.Queue;
+import org.springframework.amqp.core.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -31,7 +28,13 @@ public class FanoutConfig {
     public FanoutExchange fanoutExchange2(){
         return new FanoutExchange("zbbmeta.fanout2");
     }
-
+    @Bean
+    public DirectExchange simpleExchange(){
+        // 三个参数：参数一:交换机名称、
+        //          参数二：true持久化、false 当没有queue与其绑定时是否自动删除
+        //          参数三: 如果服务器应在exchange不再使用时删除它，则为true
+        return new DirectExchange("simple.direct", true, false);
+    }
     /**
      *  声明队列zbbmeta.fanout.queue1
      */

@@ -9,13 +9,21 @@
       <module fileurl="file://$PROJECT_DIR$/day29-eureka-loadbalancer/day29-eureka-loadbalancer.iml" filepath="$PROJECT_DIR$/day29-eureka-loadbalancer/day29-eureka-loadbalancer.iml" />
       <module fileurl="file://$PROJECT_DIR$/day30-cloud-nacos-config/day30-cloud-nacos-config.iml" filepath="$PROJECT_DIR$/day30-cloud-nacos-config/day30-cloud-nacos-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/day31-cloud-openfegin/day31-cloud-openfegin.iml" filepath="$PROJECT_DIR$/day31-cloud-openfegin/day31-cloud-openfegin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day32-cloud-gateway/day32-cloud-gateway.iml" filepath="$PROJECT_DIR$/day32-cloud-gateway/day32-cloud-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-order-service/eureka-loadbalancer-order-service.iml" filepath="$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-order-service/eureka-loadbalancer-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-server/eureka-loadbalancer-server.iml" filepath="$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-server/eureka-loadbalancer-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-user-service/eureka-loadbalancer-user-service.iml" filepath="$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-user-service/eureka-loadbalancer-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-order-service/eureka-order-service.iml" filepath="$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-order-service/eureka-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-user-service/eureka-user-service.iml" filepath="$PROJECT_DIR$/day28-eureka-ribbon-demo/eureka-user-service/eureka-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-cloud-server/gateway-cloud-server.iml" filepath="$PROJECT_DIR$/day32-cloud-gateway/gateway-cloud-server/gateway-cloud-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-order-service/gateway-order-service.iml" filepath="$PROJECT_DIR$/day32-cloud-gateway/gateway-order-service/gateway-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-user-api/gateway-user-api.iml" filepath="$PROJECT_DIR$/day32-cloud-gateway/gateway-user-api/gateway-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-user-service/gateway-user-service.iml" filepath="$PROJECT_DIR$/day32-cloud-gateway/gateway-user-service/gateway-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learn_springboot.iml" filepath="$PROJECT_DIR$/.idea/learn_springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-study/mq-consumer/mq-consumer.iml" filepath="$PROJECT_DIR$/mq-study/mq-consumer/mq-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-study/mq-publisher/mq-publisher.iml" filepath="$PROJECT_DIR$/mq-study/mq-publisher/mq-publisher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-study/mq-study.iml" filepath="$PROJECT_DIR$/mq-study/mq-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/day30-cloud-nacos-config/nacos-config-order-service/nacos-config-order-service.iml" filepath="$PROJECT_DIR$/day30-cloud-nacos-config/nacos-config-order-service/nacos-config-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/day30-cloud-nacos-config/nacos-config-user-oservice/nacos-config-user-oservice.iml" filepath="$PROJECT_DIR$/day30-cloud-nacos-config/nacos-config-user-oservice/nacos-config-user-oservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/day31-cloud-openfegin/openfegin-order-service/openfegin-order-service.iml" filepath="$PROJECT_DIR$/day31-cloud-openfegin/openfegin-order-service/openfegin-order-service.iml" />

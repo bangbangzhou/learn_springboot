@@ -19,5 +19,15 @@
     <file url="file://$PROJECT_DIR$/day31-cloud-openfegin/openfegin-order-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day31-cloud-openfegin/openfegin-user-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/day31-cloud-openfegin/openfegin-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-cloud-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-cloud-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-user-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-user-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq-study/mq-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq-study/mq-publisher/src/main/java" charset="UTF-8" />
   </component>
 </project>

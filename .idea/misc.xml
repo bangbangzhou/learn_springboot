@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/day29-eureka-loadbalancer/pom.xml" />
         <option value="$PROJECT_DIR$/day30-cloud-nacos-config/pom.xml" />
         <option value="$PROJECT_DIR$/day31-cloud-openfegin/pom.xml" />
+        <option value="$PROJECT_DIR$/day32-cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/mq-study/pom.xml" />
       </list>
     </option>
   </component>
