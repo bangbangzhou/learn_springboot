@@ -1,0 +1,16 @@
+server:
+  port: 9999
+
+spring:
+  rabbitmq:
+    host: 192.168.150.102 # 主机名
+    port: 5672 # 端口
+    virtual-host: / # 虚拟主机
+    username: zbbmeta # 用户名
+    password: 123456 # 密码
+    listener:
+      simple:
+        prefetch: 1
+      #prefetch: 1 # 消费者每次只能获取一条消息，处理完成才能获取下一个消息
+  application:
+    name:  mq-consumer
