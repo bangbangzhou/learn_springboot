@@ -182,4 +182,14 @@ public class SpringRabbitListener {
             // channel.basicReject(message.getMessageProperties().getDeliveryTag(), false);
         }
     }
+
+
+    @RabbitListener(bindings = @QueueBinding(
+            value = @Queue(name = "deadLetter.queue", durable = "true"),
+            exchange = @Exchange(name = "deadLetter.direct"),
+            key = "dlmail"
+    ))
+    public void listenDlQueue(String msg){
+        System.out.println("接收到 24小时候的确认邮件-----："+msg+"  ====================="+ LocalTime.now());
+    }
 }

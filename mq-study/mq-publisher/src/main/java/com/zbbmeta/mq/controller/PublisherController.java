@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.nio.charset.StandardCharsets;
+import java.time.LocalTime;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
@@ -241,5 +242,26 @@ public class PublisherController {
 
         rabbitTemplate.convertAndSend("simple.queue2",msg);
         return msg;
+    }
+//    @GetMapping("/register/{msg}")
+//    public String registerUser(@PathVariable("msg") String msg) {
+//        // 设置消息的expiration属性为24小时（单位：毫秒）
+//        rabbitTemplate.convertAndSend("register.direct","register",msg);
+//        return "注册成功 时间为"+ LocalTime.now();
+//    }
+
+    @GetMapping("/register/{msg}")
+    public String registerUser(@PathVariable("msg") String msg){
+        // 创建消息
+        Message message = MessageBuilder
+                .withBody("hello, ttl message".getBytes(StandardCharsets.UTF_8))
+                .setExpiration("5000")
+                .build();
+        // 消息ID，需要封装到CorrelationData中
+        CorrelationData correlationData = new CorrelationData(UUID.randomUUID().toString());
+        // 发送消息
+        rabbitTemplate.convertAndSend("register.direct", "register", message, correlationData);
+
+        return "注册成功 时间为"+ LocalTime.now();
     }
 }
