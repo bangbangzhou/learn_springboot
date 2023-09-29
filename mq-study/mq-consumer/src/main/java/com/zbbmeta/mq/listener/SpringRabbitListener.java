@@ -4,10 +4,7 @@ import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import org.springframework.amqp.core.ExchangeTypes;
 import org.springframework.amqp.core.Message;
-import org.springframework.amqp.rabbit.annotation.Exchange;
-import org.springframework.amqp.rabbit.annotation.Queue;
-import org.springframework.amqp.rabbit.annotation.QueueBinding;
-import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.amqp.rabbit.annotation.*;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -191,5 +188,25 @@ public class SpringRabbitListener {
     ))
     public void listenDlQueue(String msg){
         System.out.println("接收到 24小时候的确认邮件-----："+msg+"  ====================="+ LocalTime.now());
+    }
+
+
+    @RabbitListener(bindings = @QueueBinding(
+            value = @Queue(name = "delay.queue", durable = "true"),
+            exchange = @Exchange(name = "delay.direct",delayed = "true"),
+            key = "delay"
+    ))
+    public void listenDelayExchangeQueue(String msg){
+        System.out.println("delay.queue 接收到-----："+msg+"  =====================时间为: "+ LocalTime.now());
+    }
+
+
+    @RabbitListener(queuesToDeclare = @Queue(
+            name = "lazy.queue",
+            durable = "true",
+            arguments = @Argument(name = "x-queue-mode" ,value="lazy")
+    ))
+    public void listenlazyQueue(String msg){
+        System.out.println("lazy.queue 接收到-----："+msg+"  =====================时间为: "+ LocalTime.now());
     }
 }

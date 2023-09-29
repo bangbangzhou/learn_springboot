@@ -264,4 +264,29 @@ public class PublisherController {
 
         return "注册成功 时间为"+ LocalTime.now();
     }
+
+    @GetMapping("/delay/{msg}")
+    public String delayMsg(@PathVariable("msg") String msg){
+        // 创建消息
+        Message message = MessageBuilder
+                .withBody("hello, delay message".getBytes(StandardCharsets.UTF_8))
+                .setHeader("x-delay",10000) //因为单位是毫秒，所以延迟十秒发送
+                .build();
+        // 消息ID，需要封装到CorrelationData中
+        CorrelationData correlationData = new CorrelationData(UUID.randomUUID().toString());
+        // 发送消息
+        rabbitTemplate.convertAndSend("delay.direct", "delay", message, correlationData);
+
+        return "发送成功 时间为"+ LocalTime.now();
+    }
+
+
+    @GetMapping("/lazy/{msg}")
+    public String lazyMsg(@PathVariable("msg") String msg){
+
+        // 发送消息
+        rabbitTemplate.convertAndSend("lazy.queue", msg);
+
+        return "发送成功 时间为"+ LocalTime.now();
+    }
 }

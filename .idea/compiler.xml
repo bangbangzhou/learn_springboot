@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="seata-account-service" />
         <module name="mq-consumer" />
         <module name="eureka-loadbalancer-server" />
         <module name="eureka-loadbalancer-user-service" />
@@ -16,6 +17,7 @@
         <module name="eureka-server" />
         <module name="gateway-user-service" />
         <module name="nacos-config-user-oservice" />
+        <module name="seata-storage-service" />
         <module name="day26-01-Jedis" />
         <module name="eureka-user-service" />
         <module name="gateway-cloud-server" />
@@ -28,6 +30,7 @@
         <module name="nacos-config-order-service" />
         <module name="openfegin-user-api" />
         <module name="day26-02-spring-data-redis" />
+        <module name="seata-order-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
@@ -59,6 +62,10 @@
       <module name="openfegin-user-api" target="11" />
       <module name="openfegin-user-service" target="11" />
       <module name="order-service" target="11" />
+      <module name="seata-account-service" target="11" />
+      <module name="seata-order-service" target="11" />
+      <module name="seata-storage-service" target="11" />
+      <module name="seata-study" target="11" />
       <module name="untitled" target="11" />
       <module name="user-service" target="11" />
     </bytecodeTargetLevel>
@@ -87,6 +94,10 @@
       <module name="openfegin-user-api" options="-parameters" />
       <module name="openfegin-user-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
+      <module name="seata-account-service" options="-parameters" />
+      <module name="seata-order-service" options="-parameters" />
+      <module name="seata-storage-service" options="-parameters" />
+      <module name="seata-study" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>
