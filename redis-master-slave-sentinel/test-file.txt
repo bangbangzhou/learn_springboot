@@ -1,0 +1,66 @@
+###  3.1. 运行 -- 哨兵模式（sentinel监视redis主从服务
+ >运行 -- 哨兵模式（sentinel监视redis主从服务，当某个master服务下线时，自动将该master下的某个从服务升级为master服务替代已下线的master服务继续处理请求 -- 即主节点切换）
+```sh
+docker-compose -f docker-compose-redis-master-slave-sentinel.yml -p redis up -d
+```
+
+- 1.哨兵模式查看
+```sh
+# 连接redis-sentinel-1
+docker exec -it redis-sentinel-1 redis-cli -p 26379
+```
+- 2.查看redis主信息
+```sh
+sentinel master mymaster
+```
+
+- 3. 查看redis从信息
+```sh
+sentinel slaves mymaster
+```
+
+
+- 4.查看 哨兵redis-sentinel-1日志
+
+```sh
+docker logs -f redis-sentinel-1
+```
+
+
+- 4. 进入redis-slave-1容器
+```sh
+docker exec -it redis-master redis-cli -h 192.168.150.102 -p 6381 -a 123456
+```
+- 5. 关闭redis-master主节点
+```sh
+docker stop redis-master
+```
+**发现主节点从master节点，转换为slave-2节点**
+
+- 6. 进入redis-slave-2容器
+```sh
+docker exec -it redis-master redis-cli -h 192.168.150.102 -p 6382 -a 123456
+```
+
+- 7.查看集群状态
+```sh
+info replication
+```
+**发现现在从节点只剩一个**
+
+- 8.重启master节点
+```sh
+ docker start redis-master
+```
+
+- 9.再次查看集群状态
+```sh
+ info replication
+```
+**发现master节点添加回来了，但是变成了从节点**
+
+### 3.3. 卸载哨兵集群
+```sh
+docker-compose -f docker-compose-redis-master-slave-sentinel.yml -p redis down
+
+```

@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: seata-server
+
+
+console:
+  user:
+    username: seata
+    password: seata
+
+seata:
+  config:
+    # 读取tc服务端的配置文件的方式，这里是从nacos配置中心读取，这样如果tc是集群，可以共享配置
+    type: nacos
+    nacos:
+      ## 设置nacos地址
+      server-addr: 192.168.150.102:8848
+      namespace:
+      group: SEATA_GROUP
+      username: nacos
+      password: nacos
+      ##if use MSE Nacos with auth, mutex with username/password attribute
+      #access-key: ""
+      #secret-key: ""
+      data-id: seataServer.properties
+  registry:
+    # tc服务的注册中心类，这里选择nacos，也可以是eureka、zookeeper等
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: 192.168.150.102:8848
+      group: DEFAULT_GROUP
+      namespace:
+      username: nacos
+      password: nacos
+
+  #  server:
+  #    service-port: 8091 #If not configured, the default is '${server.port} + 1000'
+  security:
+    secretKey: SeataSecretKey0c382ef121d778043159209298fd40bf3850a017
+    tokenValidityInMilliseconds: 1800000
+    ignore:
+      urls: /,/**/*.css,/**/*.js,/**/*.html,/**/*.map,/**/*.svg,/**/*.png,/**/*.ico,/console-fe/public/**,/api/v1/auth/login
