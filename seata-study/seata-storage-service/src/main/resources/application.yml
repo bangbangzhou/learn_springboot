@@ -41,6 +41,6 @@ seata:
       password: nacos
   tx-service-group: seata-demo # 事务组名称
   service:
-    vgroup-mapping: #事务组与cluster的映射关系
+    vgroup-mapping: #事务组与seata 服务  集群（cluster）的映射关系
       seata-demo: "default"
-  data-source-proxy-mode: AT #开启XA模式
+  data-source-proxy-mode: AT #开启AT模式

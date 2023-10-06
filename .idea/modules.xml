@@ -34,6 +34,10 @@
       <module fileurl="file://$PROJECT_DIR$/seata-study/seata-order-service/seata-order-service.iml" filepath="$PROJECT_DIR$/seata-study/seata-order-service/seata-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata-study/seata-storage-service/seata-storage-service.iml" filepath="$PROJECT_DIR$/seata-study/seata-storage-service/seata-storage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata-study/seata-study.iml" filepath="$PROJECT_DIR$/seata-study/seata-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-study/sentinel-account-service/sentinel-account-service.iml" filepath="$PROJECT_DIR$/sentinel-study/sentinel-account-service/sentinel-account-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-study/sentinel-order-service/sentinel-order-service.iml" filepath="$PROJECT_DIR$/sentinel-study/sentinel-order-service/sentinel-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-study/sentinel-storage-service/sentinel-storage-service.iml" filepath="$PROJECT_DIR$/sentinel-study/sentinel-storage-service/sentinel-storage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-study/sentinel-study.iml" filepath="$PROJECT_DIR$/sentinel-study/sentinel-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/day27-cloud-demo/user-service/user-service.iml" filepath="$PROJECT_DIR$/day27-cloud-demo/user-service/user-service.iml" />
     </modules>
   </component>

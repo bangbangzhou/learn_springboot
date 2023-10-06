@@ -10,27 +10,30 @@
         <module name="seata-account-service" />
         <module name="mq-consumer" />
         <module name="eureka-loadbalancer-server" />
-        <module name="eureka-loadbalancer-user-service" />
         <module name="openfegin-user-service" />
         <module name="user-service" />
         <module name="gateway-user-api" />
         <module name="eureka-server" />
         <module name="gateway-user-service" />
-        <module name="nacos-config-user-oservice" />
         <module name="seata-storage-service" />
         <module name="day26-01-Jedis" />
         <module name="eureka-user-service" />
         <module name="gateway-cloud-server" />
+        <module name="mq-publisher" />
+        <module name="openfegin-order-service" />
+        <module name="nacos-config-order-service" />
+        <module name="openfegin-user-api" />
+        <module name="seata-order-service" />
+        <module name="eureka-loadbalancer-user-service" />
+        <module name="sentinel-order-service" />
+        <module name="sentinel-account-service" />
+        <module name="nacos-config-user-oservice" />
         <module name="eureka-loadbalancer-order-service" />
         <module name="gateway-order-service" />
         <module name="eureka-order-service" />
-        <module name="mq-publisher" />
-        <module name="openfegin-order-service" />
         <module name="order-service" />
-        <module name="nacos-config-order-service" />
-        <module name="openfegin-user-api" />
         <module name="day26-02-spring-data-redis" />
-        <module name="seata-order-service" />
+        <module name="sentinel-storage-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
@@ -66,6 +69,10 @@
       <module name="seata-order-service" target="11" />
       <module name="seata-storage-service" target="11" />
       <module name="seata-study" target="11" />
+      <module name="sentinel-account-service" target="11" />
+      <module name="sentinel-order-service" target="11" />
+      <module name="sentinel-storage-service" target="11" />
+      <module name="sentinel-study" target="11" />
       <module name="untitled" target="11" />
       <module name="user-service" target="11" />
     </bytecodeTargetLevel>
@@ -98,6 +105,10 @@
       <module name="seata-order-service" options="-parameters" />
       <module name="seata-storage-service" options="-parameters" />
       <module name="seata-study" options="-parameters" />
+      <module name="sentinel-account-service" options="-parameters" />
+      <module name="sentinel-order-service" options="-parameters" />
+      <module name="sentinel-storage-service" options="-parameters" />
+      <module name="sentinel-study" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>

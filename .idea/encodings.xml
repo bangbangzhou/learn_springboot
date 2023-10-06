@@ -32,5 +32,8 @@
     <file url="file://$PROJECT_DIR$/seata-study/seata-account-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-study/seata-order-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/seata-study/seata-storage-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-study/sentinel-account-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-study/sentinel-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-study/sentinel-storage-service/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/day32-cloud-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/mq-study/pom.xml" />
         <option value="$PROJECT_DIR$/seata-study/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel-study/pom.xml" />
       </list>
     </option>
   </component>
