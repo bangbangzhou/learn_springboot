@@ -2,6 +2,7 @@ package com.zbbmeta.seatastudy.service.impl;
 
 
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.zbbmeta.seatastudy.client.AccountClient;
 import com.zbbmeta.seatastudy.client.StorageClient;
 import com.zbbmeta.seatastudy.entity.Order;
@@ -29,6 +30,13 @@ public class OrderServiceImpl implements OrderService {
         this.storageClient = storageClient;
         this.orderMapper = orderMapper;
     }
+
+    @Override
+    @SentinelResource("goods")
+    public void queryGoods(){
+        System.out.println("查询商品");
+    }
+
 
     @Override
     @GlobalTransactional //开启分布式事务

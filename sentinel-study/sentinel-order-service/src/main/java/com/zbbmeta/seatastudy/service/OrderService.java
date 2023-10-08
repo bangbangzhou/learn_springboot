@@ -9,4 +9,6 @@ public interface OrderService {
      * 创建订单
      */
     Long create(Order order);
+
+    void queryGoods();
 }
