@@ -26,6 +26,7 @@
         <module name="seata-order-service" />
         <module name="eureka-loadbalancer-user-service" />
         <module name="sentinel-order-service" />
+        <module name="elastic-demo" />
         <module name="sentinel-account-service" />
         <module name="nacos-config-user-oservice" />
         <module name="eureka-loadbalancer-order-service" />
@@ -46,6 +47,7 @@
       <module name="day30-cloud-nacos-config" target="11" />
       <module name="day31-cloud-openfegin" target="11" />
       <module name="day32-cloud-gateway" target="11" />
+      <module name="elastic-demo" target="11" />
       <module name="eureka-loadbalancer-order-service" target="11" />
       <module name="eureka-loadbalancer-server" target="11" />
       <module name="eureka-loadbalancer-user-service" target="11" />
@@ -83,6 +85,7 @@
       <module name="day26-02-spring-data-redis" options="-parameters" />
       <module name="day27-cloud-demo" options="-parameters" />
       <module name="day28-eureka-ribbon-demo" options="-parameters" />
+      <module name="elastic-demo" options="-parameters" />
       <module name="eureka-loadbalancer-order-service" options="-parameters" />
       <module name="eureka-loadbalancer-server" options="-parameters" />
       <module name="eureka-loadbalancer-user-service" options="-parameters" />

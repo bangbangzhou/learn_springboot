@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/day30-cloud-nacos-config/day30-cloud-nacos-config.iml" filepath="$PROJECT_DIR$/day30-cloud-nacos-config/day30-cloud-nacos-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/day31-cloud-openfegin/day31-cloud-openfegin.iml" filepath="$PROJECT_DIR$/day31-cloud-openfegin/day31-cloud-openfegin.iml" />
       <module fileurl="file://$PROJECT_DIR$/day32-cloud-gateway/day32-cloud-gateway.iml" filepath="$PROJECT_DIR$/day32-cloud-gateway/day32-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elastic-demo/elastic-demo.iml" filepath="$PROJECT_DIR$/elastic-demo/elastic-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-order-service/eureka-loadbalancer-order-service.iml" filepath="$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-order-service/eureka-loadbalancer-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-server/eureka-loadbalancer-server.iml" filepath="$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-server/eureka-loadbalancer-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-user-service/eureka-loadbalancer-user-service.iml" filepath="$PROJECT_DIR$/day29-eureka-loadbalancer/eureka-loadbalancer-user-service/eureka-loadbalancer-user-service.iml" />
