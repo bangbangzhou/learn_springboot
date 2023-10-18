@@ -1,8 +1,10 @@
 package com.zbbmeta.elastic;
 
+
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
 /**
  * @author springboot葵花宝典
@@ -14,5 +16,5 @@ public class ElasticDemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(ElasticDemoApplication.class, args);
     }
-
 }
+
