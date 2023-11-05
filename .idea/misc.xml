@@ -19,6 +19,8 @@
         <option value="$PROJECT_DIR$/minio-learn/pom.xml" />
         <option value="$PROJECT_DIR$/freemarker-learn/pom.xml" />
         <option value="$PROJECT_DIR$/PrecisionLossDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-spring-boot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-task-demo/pom.xml" />
       </list>
     </option>
   </component>

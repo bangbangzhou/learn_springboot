@@ -23,7 +23,9 @@
         <module name="openfegin-order-service" />
         <module name="nacos-config-order-service" />
         <module name="openfegin-user-api" />
+        <module name="kafka-spring-boot-demo" />
         <module name="seata-order-service" />
+        <module name="spring-task-demo" />
         <module name="eureka-loadbalancer-user-service" />
         <module name="sentinel-order-service" />
         <module name="elastic-demo" />
@@ -62,6 +64,7 @@
       <module name="gateway-order-service" target="11" />
       <module name="gateway-user-api" target="11" />
       <module name="gateway-user-service" target="11" />
+      <module name="kafka-spring-boot-demo" target="11" />
       <module name="minio-learn" target="11" />
       <module name="mq-consumer" target="11" />
       <module name="mq-publisher" target="11" />
@@ -81,6 +84,7 @@
       <module name="sentinel-order-service" target="11" />
       <module name="sentinel-storage-service" target="11" />
       <module name="sentinel-study" target="11" />
+      <module name="spring-task-demo" target="11" />
       <module name="untitled" target="11" />
       <module name="user-service" target="11" />
     </bytecodeTargetLevel>
@@ -104,6 +108,7 @@
       <module name="gateway-order-service" options="-parameters" />
       <module name="gateway-user-api" options="-parameters" />
       <module name="gateway-user-service" options="-parameters" />
+      <module name="kafka-spring-boot-demo" options="-parameters" />
       <module name="minio-learn" options="-parameters" />
       <module name="mq-consumer" options="-parameters" />
       <module name="mq-publisher" options="-parameters" />
@@ -121,6 +126,7 @@
       <module name="sentinel-order-service" options="-parameters" />
       <module name="sentinel-storage-service" options="-parameters" />
       <module name="sentinel-study" options="-parameters" />
+      <module name="spring-task-demo" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>
