@@ -37,6 +37,7 @@
         <module name="gateway-order-service" />
         <module name="eureka-order-service" />
         <module name="freemarker-learn" />
+        <module name="knife4j -demo" />
         <module name="order-service" />
         <module name="day26-02-spring-data-redis" />
         <module name="sentinel-storage-service" />
@@ -65,6 +66,7 @@
       <module name="gateway-user-api" target="11" />
       <module name="gateway-user-service" target="11" />
       <module name="kafka-spring-boot-demo" target="11" />
+      <module name="knife4j -demo" target="11" />
       <module name="minio-learn" target="11" />
       <module name="mq-consumer" target="11" />
       <module name="mq-publisher" target="11" />
@@ -109,6 +111,7 @@
       <module name="gateway-user-api" options="-parameters" />
       <module name="gateway-user-service" options="-parameters" />
       <module name="kafka-spring-boot-demo" options="-parameters" />
+      <module name="knife4j -demo" options="-parameters" />
       <module name="minio-learn" options="-parameters" />
       <module name="mq-consumer" options="-parameters" />
       <module name="mq-publisher" options="-parameters" />

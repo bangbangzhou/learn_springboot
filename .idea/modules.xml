@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-user-api/gateway-user-api.iml" filepath="$PROJECT_DIR$/day32-cloud-gateway/gateway-user-api/gateway-user-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/day32-cloud-gateway/gateway-user-service/gateway-user-service.iml" filepath="$PROJECT_DIR$/day32-cloud-gateway/gateway-user-service/gateway-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka-spring-boot-demo/kafka-spring-boot-demo.iml" filepath="$PROJECT_DIR$/kafka-spring-boot-demo/kafka-spring-boot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/knife4j -demo/knife4j -demo.iml" filepath="$PROJECT_DIR$/knife4j -demo/knife4j -demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learn_springboot.iml" filepath="$PROJECT_DIR$/.idea/learn_springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/minio-learn/minio-learn.iml" filepath="$PROJECT_DIR$/minio-learn/minio-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-study/mq-consumer/mq-consumer.iml" filepath="$PROJECT_DIR$/mq-study/mq-consumer/mq-consumer.iml" />
