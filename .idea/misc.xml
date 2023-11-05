@@ -16,6 +16,9 @@
         <option value="$PROJECT_DIR$/seata-study/pom.xml" />
         <option value="$PROJECT_DIR$/sentinel-study/pom.xml" />
         <option value="$PROJECT_DIR$/elastic-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/minio-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/freemarker-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/PrecisionLossDemo/pom.xml" />
       </list>
     </option>
   </component>

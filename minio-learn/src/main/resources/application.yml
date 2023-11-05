@@ -1,0 +1,8 @@
+server:
+  port: 8001
+
+minio:
+  endpoint: http://192.168.150.102:9000
+  accessKey: root
+  secretKey: password
+  bucketName: zbbmeta  # 你的是什么 这里就写什么
