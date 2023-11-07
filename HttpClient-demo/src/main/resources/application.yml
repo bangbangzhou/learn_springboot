@@ -1,0 +1,7 @@
+server:
+  port: 8899
+  servlet:
+    encoding:
+      force: true
+      charset: UTF-8
+

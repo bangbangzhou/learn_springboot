@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HttpClient-demo/HttpClient-demo.iml" filepath="$PROJECT_DIR$/HttpClient-demo/HttpClient-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrecisionLossDemo/PrecisionLossDemo.iml" filepath="$PROJECT_DIR$/PrecisionLossDemo/PrecisionLossDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebSocket-Demo/WebSocket-Demo.iml" filepath="$PROJECT_DIR$/WebSocket-Demo/WebSocket-Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day26-01-Jedis/day26-01-Jedis.iml" filepath="$PROJECT_DIR$/day26-01-Jedis/day26-01-Jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/day26-02-spring-data-redis/day26-02-spring-data-redis.iml" filepath="$PROJECT_DIR$/day26-02-spring-data-redis/day26-02-spring-data-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/day27-cloud-demo/day27-cloud-demo.iml" filepath="$PROJECT_DIR$/day27-cloud-demo/day27-cloud-demo.iml" />
