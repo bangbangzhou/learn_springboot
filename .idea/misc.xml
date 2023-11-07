@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/knife4j -demo/pom.xml" />
         <option value="$PROJECT_DIR$/HttpClient-demo/pom.xml" />
         <option value="$PROJECT_DIR$/WebSocket-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/AliOss-Demo/pom.xml" />
       </list>
     </option>
   </component>

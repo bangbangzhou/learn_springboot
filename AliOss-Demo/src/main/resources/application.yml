@@ -1,0 +1,8 @@
+server:
+  port: 8001
+
+alioss:
+  endpoint: https://oss-cn-shenzhen.aliyuncs.com
+  accessKeyId: LTAI5tRDMvRJS
+  accessKeySecret: 3sXf3Y3906YfahDP
+  bucketName: springboot-oss-bucket-demo  # 你的是什么 这里就写什么
